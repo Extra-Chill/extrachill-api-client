@@ -12,9 +12,9 @@ import type {
 } from '../types';
 
 export interface ArtistAnalyticsOptions {
-  date_range?: number;
-  start_date?: string;
-  end_date?: string;
+  date_range?: number | undefined;
+  start_date?: string | undefined;
+  end_date?: string | undefined;
 }
 
 export class ArtistsResource extends BaseResource {
